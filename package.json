@@ -14,10 +14,10 @@
     "typecheck": "vue-tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^2.13.3",
+    "@antfu/eslint-config": "^2.14.0",
     "@iconify-json/carbon": "^1.1.31",
     "@iconify-json/twemoji": "^1.1.15",
-    "@nuxt/eslint": "^0.3.6",
+    "@nuxt/eslint": "^0.3.7",
     "@nuxtjs/color-mode": "^3.4.0",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@pinia/nuxt": "^0.5.1",
@@ -30,6 +30,6 @@
     "nuxt-icon": "^0.6.10",
     "pinia": "^2.1.7",
     "typescript": "^5.4.5",
-    "vue-tsc": "^2.0.12"
+    "vue-tsc": "^2.0.13"
   }
 }
