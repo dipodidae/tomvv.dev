@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     '@vite-pwa/nuxt',
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
+    "nuxt-icon"
   ],
 
   experimental: {

@@ -1,21 +1,27 @@
 <script setup lang="ts">
-const online = useOnline()
+import { appDescription, appName } from '~/constants'
 </script>
 
 <template>
-  <div>
-    <Suspense>
-      <ClientOnly>
-        <PageView v-if="online" />
-        <div v-else>
-          You're offline
-        </div>
-      </ClientOnly>
-      <template #fallback>
-        <div>
-          <span animate-pulse>Loading...</span>
-        </div>
-      </template>
-    </Suspense>
-  </div>
+  <article>
+    <header>
+      <h1>{{ appName }}</h1>
+      <h2>{{ appDescription }}</h2>
+    </header>
+    <main>
+      <div class="links">
+        <NuxtLink to="https://github.com/dipodidae" target="_blank">
+          <Icon name="mingcute:github-fill" /> github
+        </NuxtLink>
+        <span> | </span>
+        <NuxtLink to="mailto:tomvanveen@mail.com">
+          <Icon name="mingcute:send-line" /> tomvanveen@mail.com
+        </NuxtLink>
+        <span> | </span>
+        <NuxtLink to="resume.pdf">
+          <Icon name="mingcute:download-line" /> download my resume
+        </NuxtLink>
+      </div>
+    </main>
+  </article>
 </template>
