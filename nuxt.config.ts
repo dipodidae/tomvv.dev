@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/tailwindcss',
     'nuxt-icon',
+    '@nuxtjs/google-fonts',
   ],
 
   experimental: {
@@ -63,6 +64,12 @@ export default defineNuxtConfig({
   eslint: {
     config: {
       standalone: false,
+    },
+  },
+
+  googleFonts: {
+    families: {
+      Poppins: true,
     },
   },
 })
