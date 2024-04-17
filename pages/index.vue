@@ -5,27 +5,31 @@ import { appName } from '~/constants'
 <template>
   <div class="page h-full flex flex-col items-center justify-center">
     <article class="p-4">
-      <header class="mb-10">
-        <h1 class="text-2xl mb-5 text-stone-500 font-semibold tracking-wide">
+      <header class="mb-5">
+        <h1 class="text-2xl text-stone-500 font-semibold tracking-wide">
           {{ appName }}
         </h1>
-        <h2 class="text-balance text-stone-600">
-          Front-end engineer - mostly working with
-          <IndexDescriptionLink to="https://www.typescriptlang.org/">
-            TypeScript
-          </IndexDescriptionLink>,
-          <IndexDescriptionLink to="https://vuejs.org/">
-            Vue.js
-          </IndexDescriptionLink>,
-          <IndexDescriptionLink to="https://nuxt.com/">
-            Nuxt
-          </IndexDescriptionLink>, and
-          <IndexDescriptionLink to="https://tailwindcss.com/">
-            Tailwind CSS
-          </IndexDescriptionLink>
-        </h2>
       </header>
       <main>
+        <div class="mb-5">
+          <p class="text-stone-600 max-w-[50ch]">
+            I'm a front-end engineer - mostly working with
+            <IndexDescriptionLink to="https://www.typescriptlang.org/">
+              TypeScript
+            </IndexDescriptionLink>,
+            <IndexDescriptionLink to="https://vuejs.org/">
+              Vue.js
+            </IndexDescriptionLink>,
+            <IndexDescriptionLink to="https://nuxt.com/">
+              Nuxt
+            </IndexDescriptionLink>, and
+            <IndexDescriptionLink to="https://tailwindcss.com/">
+              Tailwind CSS
+            </IndexDescriptionLink>. My housemates are two cats: Gnocchi and <IndexDescriptionLink to="https://turbonoodle.nl">
+              Turbo Noodle
+            </IndexDescriptionLink>. I love retro tech and music.
+          </p>
+        </div>
         <div class="links flex flex-col divide-y lg:flex-row lg:divide-y-0 lg:divide-x border rounded-md">
           <IndexLink to="https://github.com/dipodidae" target="_blank" icon="mingcute:github-fill">
             <span class="text-stone-400 group-hover:text-pink-400">github.com/</span>
