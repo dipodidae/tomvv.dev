@@ -10,7 +10,7 @@ const props = withDefaults(defineProps<{
 </script>
 
 <template>
-  <NuxtLink :to="props.to" :target="props.target" class="flex items-center p-5 px-10 gap-x-4 bg-slate-50 hover:bg-pink-50 group">
+  <NuxtLink :to="props.to" :target="props.target" class="flex items-center p-5 px-10 gap-x-4 bg-slate-50 hover:bg-pink-50 group" v-bind="$attrs">
     <div class="text-3xl text-stone-300 flex items-center group-hover:text-pink-400">
       <Icon :name="props.icon" />
     </div>
