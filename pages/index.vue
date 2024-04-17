@@ -11,7 +11,7 @@ import { appName } from '~/constants'
         </h1>
       </header>
       <main>
-        <div class="mb-5">
+        <div class="mb-5 leading-7">
           <p class="text-stone-600 max-w-[50ch]">
             I'm a front-end engineer - mostly working with
             <IndexDescriptionLink to="https://www.typescriptlang.org/">
