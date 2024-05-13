@@ -42,7 +42,7 @@ import { appName } from '~/constants'
               <span>mail.com</span>
             </div>
           </IndexLink>
-          <IndexLink to="/files/resume-tom-van-veen.pdf" icon="mingcute:download-line" external target="_blank">
+          <IndexLink to="https://drive.google.com/file/d/1G5ssoLvJ3HI5Pj2xL7GvFuJGRGHT7_g3/view?usp=sharing" icon="mingcute:download-line" external target="_blank">
             <span class="text-stone-400 group-hover:text-pink-400">view my</span> <span class="font-semibold">resume</span>
           </IndexLink>
         </div>
